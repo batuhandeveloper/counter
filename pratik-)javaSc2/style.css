@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: #dedede;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0px;
+}
+
+button{
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px;
+    margin:10px ;
+    letter-spacing: 3px;
+    font-size: 25px;
+    background-color: rgba(255, 0, 0, 0.0);
+    transition: all 0.3s;
+}
+
+button:hover{
+    transition: all 0.3s;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-top:200px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+} 
+
+
+.tuşlar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.dipnot {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-style: italic;
+    font-size: medium;
+    font-weight: lighter !important;
+}
+
